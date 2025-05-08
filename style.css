@@ -1,0 +1,167 @@
+/*
+ Theme Name:   DPC Event Services
+ Description:  Twenty Fourteen Child Theme
+ Author:       Friday Next
+ Author URI:   https://friday-next.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+*/
+
+/* Center it */
+#page {
+	margin: 0 auto;
+}
+body {
+	background: #000;
+}
+#site-header {
+	background: #000;
+	z-index: 99;
+}
+#site-header a img {
+	/* actual file 396 x 279 */
+	width: 185px;
+	height: 130px;
+	margin-bottom: -50px;
+	padding-left: 30px;
+}
+.entry-header, .entry-content, .site-content .entry-content {
+	max-width: 100% !important;
+}
+div.tfwc {
+	max-width: 80% !important;
+}
+.phone-number {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 1.5em;
+	color: #FFF;
+}
+#site-header .site-icon {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 10px;
+	bottom: 57px;
+}
+@media ( max-width: 480px ) {
+	.phone-number {
+		font-size: 1.2em;
+	}
+	#site-header .site-icon {
+		bottom: 60px;
+	}
+}
+
+/* Nav */
+ul#menu-top-menu.nav-menu li.menu-item a {
+	font-size: 12px;
+}
+
+/* Mini Features */
+#mini-feature-section {
+	padding-top: 30px;
+}
+div.mini-feature {
+	float: left;
+	width: 32%;
+	padding-right: 2%;
+}
+@media ( max-width: 480px ) {
+	div.mini-feature {
+		width: 100%;
+	}
+	div.mini-feature:after {
+		clear: both;
+	}
+}
+.mini-feature img {
+	margin-bottom: 7px;
+}
+.mini-feature.last {
+	padding-right: 0;
+}
+.mini-feature.last:after {
+	clear: both;
+}
+a.mini-title {
+	text-decoration: none;
+}
+.separator {
+	clear: both;
+	width: 100px;
+	padding-top: 20px;
+}
+
+/* Sibling Links */
+.sibling-pages {
+	padding: 10px 30px;
+	margin: -71px 0 30px;
+	background: #24890d;
+	overflow: hidden;
+}
+.sibling-pages a:hover {
+	background: #FFF;
+	color: #000;
+}
+.sibling-pages strong {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.sibling-pages a {
+	margin: 0 10px;
+	color: #FFF;
+	padding: 5px;
+}
+.sibling-pages a.first {
+	margin-left: 0;
+}
+.sibling-pages .separator {
+	color: #FFF;
+}
+@media (max-width: 594px ) {
+	.sibling-pages {
+		max-width: 100%;
+		padding: 0 10px;
+		margin-top: -30px;
+	}
+	.sibling-pages strong {
+		margin-bottom: 0;
+	}
+}
+
+/* Category Page Titles */
+body.page.full-width h1.entry-title {
+        font-family: 'Arial Black',arial;
+}
+
+/* WooCommerce Custom Colors to Match Twenty Fifteen */
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+        background-color: #24890d;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+        background-color: #41a62a;
+}
+
+/* Testimonials */
+.type-testimonials-widget span.author {
+	padding-right: 70px;
+}
+.type-testimonials-widget span.image {
+	margin-bottom: 100px;
+}
+@media (max-width: 594px ) {
+	.type-testimonials-widget span.image {
+		margin-bottom: 0;
+	}
+}
+.type-testimonials-widget span.open-quote {
+	display: none;
+}
+
+/* Footer */
+#footer-sidebar h1.widget-title, #footer-sidebar .textwidget {
+	font-size: 1.5em;
+}
